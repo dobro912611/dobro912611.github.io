@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: open sans,sans-serif;
+}
+
+li{
+	display: block;
+	padding: 5px 0;
+}
+p{
+	padding-top: 8px;
+	color: blue;
+}
+
+.clearfix{
+  clear: both;
+  content: '';
+	display: table;
+	width: 100%;
+}
+.main{
+	min-width: 825px;
+}
+
+.left_column{
+	width: 40%;
+	height: 100vh;
+	background: url(../img/photo-1.jpg) no-repeat center top / cover;
+	display: block;
+	float: left;
+	overflow: auto;
+}
+a{
+	color: blue;
+	text-decoration: none;
+	font-size: 18px;
+}
+.instagram{
+	background-position: left top;
+	background: url(../img/insta.png)no-repeat center top / cover;
+	display: inline-block;
+	margin-right: 10px;
+	width: 40px;
+	height: 40px;
+}
+.facebook{
+	background: url(../img/facebook.png)no-repeat center top / cover;;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.viber{
+	background: url(../img/viber.png)no-repeat center top / cover;;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+i{
+	font-size: 60px;
+	color: red;
+}
+.right_column{
+	width: 60%;
+	height: 100vh;
+	background: url(../img/photo-2.jpg) no-repeat center top / cover;
+	display: block;
+	float: right;
+	overflow: auto;
+}
+.container_left{
+	width: 60%;
+	min-width: 250px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+.container_right{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.photo{
+	height: 200px;
+	width: 200px;
+	border: 4px solid;
+	overflow: hidden;
+	border-color: #111;
+	border-radius: 5%;
+	margin: 0 auto;
+}
+.contact a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+.name h1{
+	font-size: 40px;
+}
+.container_right h1, h3{
+	display: inline-block;
+	color: olive;
+	text-transform: uppercase;
+}
+.education, .work1, .interest, .marital_status{
+	padding-top: 30px;	
+}
+.btn{
+	background: #D9E59B;
+	display: block;
+	width: 150px;
+	border-radius: 15px;
+	border: 2px solid red;
+	padding: 10px 0;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	color: red;
+}
+
+.btn:hover{
+	color: red;
+	background: #252525;
+}
+.bottons{
+	display: flex;
+	justify-content: row;
+	align-content: center;
+	margin: 25px;
+}
+
